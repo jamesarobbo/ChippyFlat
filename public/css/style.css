@@ -1,0 +1,399 @@
+
+
+@import url(http://fonts.googleapis.com/css?family=Lora|Muli);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+body {
+	
+	font-family: "Lato", "Muli", Arial, sans-serif;
+	font-size:15px;
+	/*background: url(../images/background.jpg)center;*/
+}
+/*
+.row {
+	background-color: #fdfdfd;
+}*/
+
+
+/*HEADER*/
+
+.head {
+	
+	border-bottom: 3px solid #252525;
+	padding: 20px 0;
+	/*background-color: #fdfdfd;*/
+}
+
+.logo a {
+	background: url(../images/logo2.png) no-repeat left top;
+	display: block;
+	width:300px;
+	height:165px;
+	text-indent: -9999px;
+	float: left;	
+}
+
+form .top{
+	position: absolute;
+	right: 0;
+	top:20px;
+}
+
+input#mce-EMAIL.top.required.email {
+	width: 300px;
+	padding:5px;
+	font-size: 14px;
+	font-weight: 300;
+	font-family: "Lato";
+	border:1px solid #252525;
+	outline: none;
+}
+
+input#mce-EMAIL.top.required.email:focus {
+	border: 1px solid #ff3333;
+	transition: 0.3s ease-out;
+}
+
+.navigation {
+	list-style-type: none;
+	line-height: 175px;
+	display: block;
+	text-align: center;
+	float: right;
+	position: absolute;
+	right: 0;
+	top:55px;
+}
+
+.navigation li {
+	display: inline-block;
+	padding: 0 15px 0 15px;
+}
+
+.navigation li a {
+	text-decoration: none;
+	color: #252525;
+	margin:0 10px;
+	padding: 10px 2px;
+
+}
+
+.navigation li a.instagram {
+	margin-right:0;
+}
+
+.navigation li a:hover {
+	/*border: 2px solid #252525;*/
+	color: #FF3333;
+	padding-bottom:10px;
+	border-bottom: 2px solid #ff3333;
+}
+
+.navigation li a.fb  {
+	background: url(../images/FB_logo_black.png) no-repeat center;
+	background-size: 32px 32px;
+	padding: 16px;
+
+}
+
+.navigation li a.twitter  {
+	background: url(../images/Twitter_logo_black.png) no-repeat center;
+	background-size: 32px 26px;
+	padding: 16px;
+}
+
+.navigation li a.youtube  {
+	background: url(../images/YouTube_logo_black.png) no-repeat center;
+	background-size: 32px 23px; 
+	padding: 16px;
+
+}
+
+.navigation li a.instagram  {
+	background: url(../images/Insta_logo_black.png) no-repeat center;
+	background-size: 32px 32px;
+	padding: 16px;
+}
+
+.navigation li a.fb:hover, .navigation li a.twitter:hover, .navigation li a.instagram:hover, .navigation li a.youtube:hover {
+	border: none;
+}
+
+.navigation li a.twitter:hover {
+	background: url(../images/Twitter_logo_red.png) no-repeat center;
+	background-size: 32px 26px;
+	padding: 16px;
+	transition: 0.5s;
+}
+
+.navigation li a.fb:hover {
+	background: url(../images/FB_logo_red2.png) no-repeat center;
+	background-size: 32px 32px;
+	padding: 16px;
+	transition: 0.5s;
+}
+
+.navigation li a.youtube:hover {
+	background: url(../images/YouTube_logo_red4.png) no-repeat center;
+	background-size: 32px 23px;
+	padding: 16px;
+	transition: 0.5s;
+}
+
+.navigation li a.instagram:hover {
+	background: url(../images/Insta_logo_red2.png) no-repeat center;
+	background-size: 32px 32px;
+	padding: 16px;
+	transition: 0.5s ease-out;
+}
+
+.navigation li.follow {
+	padding-right:0px;
+}
+
+/*END OF HEADER*/
+
+/*ABOUT SECTION*/
+
+.about {
+	border-bottom: 1px solid #252525;
+	padding-bottom: 20px;
+}
+
+
+h3 {
+	font-family: "Lato", "Muli", Arial;
+	font-size: 14px;
+	color: #FF3333;
+	text-transform: uppercase;
+}
+
+p {
+	margin-top: 5px;
+	padding-bottom: 15px;
+	font-size: 14px;
+	text-align: justify;	
+	line-height: 150%;
+	font-family: "Lato", "Lora", serif;
+	font-weight: 300;
+	border-bottom: 1px solid #252525;
+}
+
+.first p {
+	padding-bottom: 36px;
+}
+.first.row {
+	padding-top: 40px;
+}
+
+.first.row h3 {
+	margin-top: 0;
+}
+
+.second.row h3 {
+	margin-top: 10px;
+}
+
+
+/*END OF ABOUT SECTION*/
+
+/*TEAM SECTION*/
+
+.team {
+	border-bottom: 1px solid #252525;
+	
+}
+
+.sixth.row {
+	padding-top: 40px;
+	
+
+}
+
+.sixth p {
+	border-bottom: none;
+}
+
+.seventh.row {
+	padding-bottom: 20px;
+}
+
+
+/*END OF TEAM SECTION*/
+
+/*FOOTER */
+
+.eighth.row {
+	padding-top: 40px;
+} 
+
+.footer p {
+	border:none;
+	font-family: "Lato", "Muli", Arial, sans-serif;
+}
+
+.footer .address, .footer .subscribe {
+	margin-top: 20px;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #252525;
+	padding:10px 0;
+	margin-left: -px;
+}
+
+.footer a:hover {
+	border-bottom:2px solid #ff3333;
+	color: #ff3333;
+	padding:0 2px 10px 0;
+}
+
+.footer p a.fb  {
+	background: url(../images/FB_logo_black.png) no-repeat center;
+	background-size: 32px 32px;
+	padding: 16px;
+
+}
+
+.footer p a.twitter  {
+	background: url(../images/Twitter_logo_black.png) no-repeat center;
+	background-size: 32px 26px;
+	padding: 16px;
+}
+
+.footer p a.youtube  {
+	background: url(../images/YouTube_logo_black.png) no-repeat center;
+	background-size: 32px 23px; 
+	padding: 16px;
+
+}
+
+.footer p a.instagram  {
+	background: url(../images/Insta_logo_black.png) no-repeat center;
+	background-size: 32px 32px;
+	padding: 16px;
+}
+
+.footer p a.vk  {
+	background: url(../images/VK_logo_black.png) no-repeat center;
+	background-size: 32px 32px;
+	padding: 16px;
+}
+
+.footer p a.fb:hover, .footer p a.twitter:hover, .footer p a.instagram:hover, .footer p a.youtube:hover, .footer p a.vk:hover{
+	border: none;
+}
+
+.footer p a.twitter:hover {
+	background: url(../images/Twitter_logo_red.png) no-repeat center;
+	background-size: 32px 26px;
+	padding: 16px;
+	transition: 0.3s ease-out;
+}
+
+.footer p a.fb:hover {
+	background: url(../images/FB_logo_red2.png) no-repeat center;
+	background-size: 32px 32px;
+	padding: 16px;
+	transition: 0.3s ease-out;
+}
+
+.footer p a.youtube:hover {
+	background: url(../images/YouTube_logo_red4.png) no-repeat center;
+	background-size: 32px 23px;
+	padding: 16px;
+	transition: 0.3s ease-out;
+}
+
+.footer p a.instagram:hover {
+	background: url(../images/Insta_logo_red2.png) no-repeat center;
+	background-size: 32px 32px;
+	padding: 16px;
+	transition: 0.3s ease-out;
+}
+
+.footer p a.vk:hover  {
+	background: url(../images/VK_logo_red.png) no-repeat center;
+	background-size: 32px 32px;
+	padding: 16px;
+	transition: 0.3s ease-out;
+}
+
+.footer p.follow.top {
+	padding-top: 25px;
+}
+
+.footer p.follow {
+	padding-bottom: 25px;
+}
+
+
+.footer p a.follow {
+	margin-left: 0;	
+	margin-right: 40px;
+}
+
+
+input#mce-EMAIL.bottom.required.email {
+	width: 286px;
+	padding:5px;
+	font-size: 14px;
+	font-weight: 300;
+	font-family: "Lato";
+	border:1px solid #252525;
+	outline: none;
+}
+
+input#mce-EMAIL.bottom.required.email:focus {
+	border:1px solid #ff3333;
+	transition: 0.3s ease-out;
+}
+
+.bottom.logo {
+	margin-top: 30px;
+	text-align: center;
+}
+
+div.ninth.row {
+	border-top: 3px solid #252525;
+	margin: 0;
+	padding: 0;
+}
+
+.credits {
+	text-align: center;
+	margin: 40px 0 40px 0;
+	padding: 0;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.credits a:hover {
+	border:none;
+	padding:0;
+}
+
+/*END OF FOOTER*/
+
+/*SCROLLUP*/
+
+.scrollup {
+	background: url(../images/scrollarrow_black1.png) no-repeat center;
+	background-size: 40px ;
+	height:60px;
+	width: 60px;
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	text-indent: -9999px;
+}
+
+.scrollup:hover {
+	background: url(../images/scrollarrow_red4.png) no-repeat center;
+	background-size: 40px ;
+	transition: 0.3s ease-out;
+} 
+
+/*END OF SCROLLUP*/
+
